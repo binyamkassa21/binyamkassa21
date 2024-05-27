@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binyam Kassa - Mechanical Engineer & Researcher</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .left-column, .right-column {
+            flex: 1;
+            padding: 20px;
+        }
+        .left-column {
+            background-color: #e9f7ff;
+        }
+        .right-column {
+            background-color: #f8f9fa;
+        }
+        h1, h2 {
+            color: #0d6efd;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .contact-info {
+            background-color: #dceeff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Binyam Kassa</h1>
+        <p>Mechanical Engineer & Researcher</p>
+        <p>Contact: +251914595555</p>
+    </header>
+    <div class="container">
+        <div class="left-column">
+            <h2>About Me</h2>
+            <p>Hello! I am Binyam Kassa, a mechanical engineer and researcher based in Tigray. I work at Mesfin Metals and Engineering Corporation, focusing on research and design in various fields such as vehicles, machine building, construction, and material handling machines.</p>
+            <h2>Projects</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <ul>
+                <li>Design and development of advanced material handling machines.</li>
+                <li>Innovative vehicle design for improved efficiency.</li>
+                <li>Construction machinery optimization for better performance.</li>
+            </ul>
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p>Phone: +251914595555</p>
+                <p>Email: <a href="mailto:binyam@example.com">binyam@example.com</a></p>
+            </div>
+        </div>
+        <div class="right-column">
+            <h2>Research & Publications</h2>
+            <p>Details about my research work and publications will be listed here.</p>
+            <h2>Gallery</h2>
+            <p>Some images related to my work:</p>
+            <img src="placeholder1.jpg" alt="Project Image 1">
+            <img src="placeholder2.jpg" alt="Project Image 2">
+            <img src="placeholder3.jpg" alt="Project Image 3">
+        </div>
+    </div>
+</body>
+</html>
